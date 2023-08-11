@@ -1,0 +1,67 @@
+          
+html,
+body{
+    height: 100%;
+}
+
+body {
+   background: rgb(100, 162, 255);
+   background: linear-gradient(
+        90deg, 
+        rgb(100, 177, 255) 0%,
+        rgb(105, 206, 253)100%
+    );
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.card-body{
+     padding: 25px;
+     border-radius: 10px;
+     text-align: center;
+}
+.card-body h1{
+    margin-bottom: 5px;
+    font-size: 20px;
+    
+}
+.card-body h2{
+    margin: 15px;
+    font-size: 70px;
+}
+.card-btn button {
+    border-radius: 5px;
+    color: #2626262;
+    padding: 10px 35px;
+    border: 0;
+    font-size: 15px
+    font-weight: bold;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0 5s;
+}
+button#decrement {
+    background: green
+    
+}
+button#decrement:hover {
+    background: green
+    color: #fff;
+   
+}
+button#reset {
+    background: red}
+button#reset:hover {
+    background: red
+    color: #fff;
+}
+button#increment {
+    background: blue
+}
+button#increment:hover {
+    background: blue
+    color: #fff;
+}
